@@ -1,7 +1,7 @@
-import numpy as np
+
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
-from sklearn import tree
+
 
 # Обратите внимание, что признак Sex имеет строковые значения.
 row_data = pd.read_csv('data/titanic.csv', index_col='PassengerId')
